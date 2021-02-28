@@ -1,0 +1,11 @@
+.content-area {
+  height: calc(100vh - 118px);
+}
+
+li {
+  @apply cursor-pointer transition-colors;
+}
+
+.active {
+  @apply bg-green-100 text-green-700;
+}

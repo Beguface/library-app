@@ -1,12 +1,16 @@
 module.exports = {
   prefix: "",
   purge: {
-    enabled: true,
+    enabled: false,
     content: ["./src/**/*.{html,ts}"],
   },
   darkMode: "class", // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ["Poppins", "system-ui"],
+      },
+    },
   },
   variants: {
     extend: {},
