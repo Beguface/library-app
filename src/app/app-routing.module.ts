@@ -4,6 +4,8 @@ import { BookDetailsComponent } from './library/pages/book-details/book-details.
 
 import { HomeComponent } from './library/pages/home/home.component'
 import { MyBooksComponent } from './library/pages/my-books/my-books.component'
+import { MyFavoriteComponent } from './library/pages/my-favorite/my-favorite.component'
+import { ToExpireComponent } from './library/pages/to-expire/to-expire.component'
 
 
 const routes: Routes = [
@@ -15,6 +17,14 @@ const routes: Routes = [
   {
     path: 'mybooks',
     component: MyBooksComponent,
+  },
+  {
+    path: 'favorite',
+    component: MyFavoriteComponent,
+  },
+  {
+    path: 'toexpire',
+    component: ToExpireComponent,
   },
   {
     path: 'books/:id',

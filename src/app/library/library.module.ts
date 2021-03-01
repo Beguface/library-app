@@ -8,11 +8,13 @@ import { BookDetailsComponent } from './pages/book-details/book-details.componen
 import { BookCardComponent } from './components/cards/book-card/book-card.component';
 import { CardsContainerComponent } from './components/cards/cards-container/cards-container.component';
 import { DashboardCardComponent } from './components/cards/dashboard-card/dashboard-card.component';
+import { MyFavoriteComponent } from './pages/my-favorite/my-favorite.component';
+import { ToExpireComponent } from './pages/to-expire/to-expire.component';
 
 
 
 @NgModule({
-  declarations: [HomeComponent, MyBooksComponent, BookDetailsComponent, BookCardComponent, CardsContainerComponent, DashboardCardComponent],
+  declarations: [HomeComponent, MyBooksComponent, BookDetailsComponent, BookCardComponent, CardsContainerComponent, DashboardCardComponent, MyFavoriteComponent, ToExpireComponent],
   imports: [
     CommonModule,
     RouterModule
