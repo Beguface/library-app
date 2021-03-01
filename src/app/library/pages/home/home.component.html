@@ -1,8 +1,11 @@
 <h2 class="font-medium text-xl mb-9">Bienvenido Andres 👋</h2>
 
-<div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-9">
-  <app-dashboard-card></app-dashboard-card>
-  <app-dashboard-card></app-dashboard-card>
+<div
+  class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mb-9"
+>
+  <div *ngFor="let dashboardItem of dashboardItems">
+    <app-dashboard-card [data]="dashboardItem"></app-dashboard-card>
+  </div>
 </div>
 
-<app-cards-container [books]="allBooks"></app-cards-container>
+<app-cards-container [books]="allNewBooks"></app-cards-container>

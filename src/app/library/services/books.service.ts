@@ -17,8 +17,12 @@ export class BooksService {
               edition: "7ma",
               description: "Your Guided Tour Through the Programming Jungle Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/9781722834920.png",
-              rented: false
-                       },
+              rented: false,
+              dueto: false,
+              favorite: true,
+              new: true
+
+           },
           {
               title: "Graph Databases For Beginners",
               author: "Albert Flores",
@@ -27,7 +31,11 @@ export class BooksService {
               id: 1001606307637,
               description: "The #1 Platform for Connected Data Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001606307637.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: true
+
 
           },
           {
@@ -38,7 +46,11 @@ export class BooksService {
               id: 1001606307729,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001606307729.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -49,7 +61,11 @@ export class BooksService {
               id: 1001606307964,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001606307964.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -60,7 +76,11 @@ export class BooksService {
               edition: "1ra",
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001606140658.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: true
+
 
           },
           {
@@ -71,7 +91,11 @@ export class BooksService {
               id: 1001606140805,
               description: "Learn advanced Web Scraping techniques Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001606140805.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -82,7 +106,11 @@ export class BooksService {
               id: 1001605784161,
               description: "24 Workouts to Master Slicing in Python, Once and for All. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001605784161.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: true,
+              new: false
+
 
           },
           {
@@ -93,7 +121,11 @@ export class BooksService {
               id: 1001601301730,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001601301730.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -104,7 +136,11 @@ export class BooksService {
               id: 1001601302020,
               description: "Learn the main concepts involved in writing 3D games using the Lighweight Java Gaming Library. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001601302020.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: true,
+              new: false
+
 
           },
           {
@@ -115,7 +151,11 @@ export class BooksService {
               id: 1001592565453,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001592565453.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -126,7 +166,11 @@ export class BooksService {
               id: 1001592395975,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001592395975.png",
-              rented: false
+              rented: true,
+              dueto: true,
+              favorite: true,
+              new: false
+
 
           },
           {
@@ -137,7 +181,11 @@ export class BooksService {
               id: 9780999773017,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/9780999773017.png",
-              rented: false
+              rented: true,
+              dueto: true,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -148,7 +196,11 @@ export class BooksService {
               id: 9781119456339,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/9781119456339.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -159,7 +211,11 @@ export class BooksService {
               id: 9783319944623,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/9783319944623.png",
-              rented: false
+              rented: true,
+              dueto: true,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -170,7 +226,11 @@ export class BooksService {
               id: 1001590483252,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001590483252.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -181,7 +241,11 @@ export class BooksService {
               id: 1001590485785,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001590485785.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -192,7 +256,11 @@ export class BooksService {
               id: 1001590486081,
               description: "Technical Strategy for AI Engineers, In the Era of Deep Learning. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001590486081.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: true
+
 
           },
           {
@@ -203,7 +271,11 @@ export class BooksService {
               id: 1001590486262,
               description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/1001590486262.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -214,7 +286,11 @@ export class BooksService {
               id: 9781788992879,
               description: "How to build and deploy AI business projects. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/9781788992879.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           },
           {
@@ -225,7 +301,11 @@ export class BooksService {
               id: 9781789950069,
               description: "A Modern Approach. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quo recusandae corporis aperiam voluptates rem, exercitationem dolorem laborum nemo perspiciatis, magnam ullam soluta dolore doloremque dignissimos, nihil earum. Voluptatum, sed? Quidem, quaerat corrupti? Delectus necessitatibus ea repellendus. Corrupti sequi aspernatur asperiores ipsum, non, minus aut culpa facilis tenetur vero nostrum sed eos consectetur ad voluptatibus ab dicta nulla voluptate reiciendis?",
               image: "https://itbook.store/img/books/9781789950069.png",
-              rented: false
+              rented: false,
+              dueto: false,
+              favorite: false,
+              new: false
+
 
           }
       ]
@@ -234,6 +314,25 @@ export class BooksService {
 
   get allBooks(): Book[] {
     return [...this._books];
+}
+
+  get allFavoriteBooks():Book[]{
+  return this._books.filter(book => book.favorite)
+}
+
+
+  get allRentedBooks(): Book[] {
+  return this._books.filter(book => book.rented)
+}
+
+
+  get allNewBooks(): Book[] {
+  return this._books.filter(book => book.new)
+}
+
+
+get allDueToBooks(): Book[] {
+  return this._books.filter(book => book.dueto)
 }
 
 constructor() { }
@@ -251,5 +350,7 @@ rentBook(id: number) {
     : book)
   return this.getDetailsBook(id);
 }
+
+
 
 }

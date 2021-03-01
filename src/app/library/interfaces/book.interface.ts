@@ -8,5 +8,9 @@ export interface Book {
   pages: number,
   description: string,
   image: string,
-  rented: boolean
+  rented: boolean,
+  dueto: boolean,
+  favorite: boolean,
+  new: boolean
+
 }
