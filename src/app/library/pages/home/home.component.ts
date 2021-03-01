@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Book } from '../../interfaces/book.interface';
+import { BooksService } from '../../services/books.service';
 
 @Component({
   selector: 'app-home',
@@ -6,11 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent{
 
-  constructor() { }
+  titles: string[] = ["Nuevos", "Recomendados"]
 
-  ngOnInit(): void {
+  constructor(private booksService: BooksService) { }
+
+  get allBooks() {
+    return this.booksService.allBooks
   }
 
 }

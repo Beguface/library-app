@@ -1,0 +1,12 @@
+<a
+  [routerLink]="['/books', id]"
+  class="group hover:bg-transparent rounded-md overflow-hidden cursor-pointer transition-all"
+>
+  <div class="transform group-hover:bg-green-100 bg-gray-100">
+    <img class="w-full object-cover" src="{{ image }}" alt="{{ title }}" />
+  </div>
+  <div class="py-5">
+    <h6 class="font-bold h-12 text-gray-800">{{ title }}</h6>
+    <p class="text-sm text-gray-500">{{ author }}</p>
+  </div>
+</a>
