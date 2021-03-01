@@ -10,6 +10,7 @@ import { Book } from 'src/app/library/interfaces/book.interface';
 export class CardsContainerComponent {
 
   @Input() books : Book[] = [];
+  @Input() title! : string;
 
   constructor() { }
 
