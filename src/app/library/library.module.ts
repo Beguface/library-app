@@ -7,11 +7,12 @@ import { MyBooksComponent } from './pages/my-books/my-books.component';
 import { BookDetailsComponent } from './pages/book-details/book-details.component';
 import { BookCardComponent } from './components/cards/book-card/book-card.component';
 import { CardsContainerComponent } from './components/cards/cards-container/cards-container.component';
+import { DashboardCardComponent } from './components/cards/dashboard-card/dashboard-card.component';
 
 
 
 @NgModule({
-  declarations: [HomeComponent, MyBooksComponent, BookDetailsComponent, BookCardComponent, CardsContainerComponent],
+  declarations: [HomeComponent, MyBooksComponent, BookDetailsComponent, BookCardComponent, CardsContainerComponent, DashboardCardComponent],
   imports: [
     CommonModule,
     RouterModule
