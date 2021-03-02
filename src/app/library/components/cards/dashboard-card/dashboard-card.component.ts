@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { DashboardItem } from 'src/app/library/interfaces/dashboard-item';
 
 @Component({
   selector: 'app-dashboard-card',
   templateUrl: './dashboard-card.component.html',
-  styleUrls: ['./dashboard-card.component.scss']
 })
-export class DashboardCardComponent implements OnInit {
+export class DashboardCardComponent {
+
+
+  @Input() data!: DashboardItem;
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+
 
 }

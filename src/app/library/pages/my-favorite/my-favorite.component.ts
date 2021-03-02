@@ -2,17 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { BooksService } from '../../services/books.service';
 
 @Component({
-  selector: 'app-my-books',
-  templateUrl: './my-books.component.html',
-  styles: [
-  ]
+  selector: 'app-my-favorite',
+  templateUrl: './my-favorite.component.html'
 })
-export class MyBooksComponent {
+export class MyFavoriteComponent {
 
   constructor(private booksService: BooksService) { }
 
-  get allRentedBooks() {
-    return this.booksService.allRentedBooks
+  get allFavoriteBooks() {
+    return this.booksService.allFavoriteBooks
   }
+
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BooksService } from 'src/app/library/services/books.service';
 
 @Component({
   selector: 'app-navbar',
@@ -6,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent {
 
-  constructor() { }
+  constructor(private booksService: BooksService) { }
 
-  ngOnInit(): void {
+  toggleMenu() {
+    return this.booksService.toggleMenu()
+
   }
 
 }
