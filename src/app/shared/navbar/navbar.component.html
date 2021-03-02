@@ -6,7 +6,21 @@
       <h1 class="text-2xl font-bold text-green-500">LOGO</h1>
     </a>
   </div>
-  <div class="justify-items-center hidden sm:flex">
+  <div class="flex md:hidden items-center">
+    <button
+      class="hover:text-blue-500 hover:border-white"
+      (click)="toggleMenu()"
+    >
+      <svg
+        class="h-5 w-5"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+      </svg>
+    </button>
+  </div>
+  <div class="justify-items-center hidden md:flex">
     <span class="text-md font-medium self-center text-gray-700">Andres</span>
     <div
       class="bg-gradient-to-tr overflow-hidden from-green-400 to-green-800 ml-2.5 p-0.5 rounded-full"

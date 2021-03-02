@@ -310,7 +310,7 @@ export class BooksService {
           }
       ]
 
-
+      isOpen: boolean = false;
 
   get allBooks(): Book[] {
     return [...this._books];
@@ -336,6 +336,11 @@ get allDueToBooks(): Book[] {
 }
 
 constructor() { }
+
+toggleMenu(): boolean{
+  this.isOpen = !this.isOpen
+  return this.isOpen;
+}
 
 
 getDetailsBook(id: number): Book {

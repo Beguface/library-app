@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BooksService } from 'src/app/library/services/books.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,6 +8,15 @@ import { Component } from '@angular/core';
   ]
 })
 export class SidebarComponent {
+
+  constructor(private booksService: BooksService) { }
+
+  get isOpen() {
+
+    return this.booksService.isOpen;
+
+  }
+
 
 
 
