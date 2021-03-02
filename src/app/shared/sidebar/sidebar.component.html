@@ -3,12 +3,14 @@
   class="h-screen bg-white transition-all duration-200 ease-in lg:w-48 xl:w-56 2xl:w-64 px-5 pt-20 pb-8 md:block fixed t-0 l-0 z-10"
 >
   <div>
-    <h6 class="font-normal text-sm text-gray-500 uppercase mb-2.5 md:hidden">
+    <h6
+      class="font-normal text-sm text-gray-500 uppercase mb-2.5 md:hidden lg:block"
+    >
       General
     </h6>
     <ul class="mb-8 space-y-1">
       <li
-        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center"
+        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center lg:justify-start"
         routerLink=""
         routerLinkActive="active"
         [routerLinkActiveOptions]="{ exact: true }"
@@ -19,10 +21,10 @@
           />
         </svg>
 
-        <span class="self-center ml-2 md:hidden">Inicio</span>
+        <span class="self-center ml-2 md:hidden lg:block">Inicio</span>
       </li>
       <li
-        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center"
+        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center lg:justify-start"
         routerLinkActive="active"
       >
         <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -31,10 +33,10 @@
           />
         </svg>
 
-        <span class="self-center ml-2 md:hidden">Nuevos</span>
+        <span class="self-center ml-2 md:hidden lg:block">Nuevos</span>
       </li>
       <li
-        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center"
+        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center lg:justify-start"
         routerLinkActive="active"
       >
         <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -43,17 +45,19 @@
           />
         </svg>
 
-        <span class="self-center ml-2 md:hidden">Categorias</span>
+        <span class="self-center ml-2 md:hidden lg:block">Categorias</span>
       </li>
     </ul>
   </div>
   <div>
-    <h6 class="font-normal text-sm text-gray-500 uppercase mb-2.5 md:hidden">
+    <h6
+      class="font-normal text-sm text-gray-500 uppercase mb-2.5 md:hidden lg:block"
+    >
       Mis Libros
     </h6>
     <ul class="mb-8">
       <li
-        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center"
+        class="flex text-gray-800 py-2 px-1 rounded-md"
         routerLink="mybooks"
         routerLinkActive="active"
       >
@@ -63,10 +67,10 @@
           />
         </svg>
 
-        <span class="self-center ml-2 md:hidden">En uso</span>
+        <span class="self-center ml-2 md:hidden lg:block">En uso</span>
       </li>
       <li
-        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center"
+        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center lg:justify-start"
         routerLink="favorite"
         routerLinkActive="active"
       >
@@ -76,10 +80,10 @@
           />
         </svg>
 
-        <span class="self-center ml-2 md:hidden">Favoritos</span>
+        <span class="self-center ml-2 md:hidden lg:block">Favoritos</span>
       </li>
       <li
-        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center"
+        class="flex text-gray-800 py-2 px-1 rounded-md md:justify-center lg:justify-start"
         routerLink="toexpire"
         routerLinkActive="active"
       >
@@ -89,7 +93,7 @@
           />
         </svg>
 
-        <span class="self-center ml-2 md:hidden">Por devolver</span>
+        <span class="self-center ml-2 md:hidden lg:block">Por devolver</span>
       </li>
     </ul>
   </div>
