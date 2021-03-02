@@ -31,10 +31,12 @@ export class HomeComponent{
   dashboardItems: DashboardItem[] = [
 
     {title: "Alquilados",
+      route: "mybooks",
       icon: "assets/images/book-open.svg",
       count: this.allRentedBooks.length
     },
     { title: "Por Caducuar",
+      route: "toexpire",
       icon: "assets/images/expire.svg",
       count: this.allDueToBooks.length
     }
